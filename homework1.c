@@ -56,7 +56,7 @@ int MaxsumMat(int n, int m, int d[][20])
    }
 return sum;
 }
-int MaxsumMatloop(int n,int m,int d[][20],int flag)
+/*int MaxsumMatloop(int n,int m,int d[][20],int flag)
 {
 	
 	int i=0,k=0,j=0;
@@ -108,7 +108,7 @@ int MaxsumMatloop(int n,int m,int d[][20],int flag)
 return sum;
 
 
-}
+}*/
 int main(int argc, char* argv[])
 {
 	FILE *in;
