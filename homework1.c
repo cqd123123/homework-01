@@ -18,7 +18,7 @@ int maxSum(int* a, int n)
 }    
 int MaxsunLoop(int *a,int n)
 {
-	int temp[20]={0};
+	int temp[200]={0};
 	int i=0,j=0,k=0,sum;
 	sum=maxSum(a,n);
     for(i=0;i<n;i++)
@@ -36,7 +36,7 @@ int MaxsunLoop(int *a,int n)
 int MaxsumMat(int n, int m, int d[][20])
 {
 	int i=0,k=0,j=0;
-	int temp[20],t;
+	int temp[200],t;
 	int s=0,sum=0;
 	for(k=0;k<n;k++)
 	{ 
